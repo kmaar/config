@@ -23,7 +23,6 @@
 
 - Load [`.bash_profile`](/.bash_profile)
 - Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
-- Load up the Ocean theme from <https://github.com/mdo/ocean-terminal>
 
 ### 3. Secure Git(Hub) access
 
@@ -50,20 +49,28 @@
 - Install node via Homebrew: `brew install node`.
 - Install Sass, Jekyll, and Rouge: `gem install bundler sass jekyll rouge`.
 
-### 7. Setup Atom
-
-- Enable `atom` Terminal commands: from Atom.app, open the Atom menu and select *Install Shell Commands*
-- Install favorite packages
-  - [Wrap in tag](https://atom.io/packages/atom-wrap-in-tag)
-  - [Selector to tag](https://atom.io/packages/selector-to-tag)
-  - [EditorConfig](https://atom.io/packages/editorconfig)
-  - [Markdown Writer](https://atom.io/packages/markdown-writer) (install and run `Markdown Writer: Create Default keymaps` to activate default keybindings)
-  - [Import SF Mono](https://atom.io/packages/import-sf-mono) to allow Atom to access `SF Mono` as editor type face
+### 7. Setup VSCode
+- Download editor font from <https://www.typography.com/>
+- Paste user settings from repo's file
+- Paste css from repo's vscode css into a local file, link in user settings
+- Enable `code` terminal commands: from VSCode, open the command palette and type *Shell command...*
+- Install favorite extensions
+  - Cobalt2 (theme)
+  - live share
+  - vscode icons
+  - quokka
+  - git blame
+  - prettier
+  - eslint
+  - path intellisense
+  - custom css and js loader
+  - emmet
+  - import cost
 
 ### 8. Customize things
-- Disable LCD font smoothing
+- Set keyboard repetition speed in System Preferences to max for speedy code navigation :)
+- Show hidden files with `defaults write com.apple.finder AppleShowAllFiles YES`
 - Hide desktop icons with `defaults write com.apple.finder CreateDesktop false; killall Finder`
-- Set sidebar icons to Small
 
 ## Use it yourself
 

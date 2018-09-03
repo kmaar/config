@@ -24,14 +24,8 @@ _site
 .settings
 .tmproj
 *.esproj
-*.sublime-project
-*.sublime-workspace
 nbproject
 Thumbs.db
-
-# Komodo
-.komodotools
-*.komodoproject
 
 # grunt-html-validation
 validation-report.json

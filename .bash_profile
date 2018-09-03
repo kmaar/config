@@ -26,14 +26,13 @@ alias vi=vim
 alias josh=sudo
 
 ## Git commands
-alias log='git log'
-alias wut='git log master...${branch} --oneline'
-alias diff='git diff'
+alias glg='git log'
+alias gdff='git diff'
 alias branch='git branch'
-alias st='git status'
-alias fetch='git fetch'
-alias push='git push origin head'
-alias pull='git pull'
+alias gst='git status'
+alias gft='git fetch'
+alias gpoh='git push origin head'
+alias gp='git pull'
 alias fp='fetch && pull'
 alias gmm='git merge master'
 alias recent='git for-each-ref --sort=-committerdate refs/heads/'
@@ -58,9 +57,6 @@ alias ss='script/server'
 alias js='bundle exec jekyll serve --watch'
 alias ps='python -m SimpleHTTPServer 4000'
 alias gtest='testrb test/integration/bundle_test.rb'
-
-## Mobile iOS testing
-alias ios='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app'
 
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"

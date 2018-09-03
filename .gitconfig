@@ -1,13 +1,6 @@
 [user]
-  name = Mark Otto
-  email = markdotto@gmail.com
-
-[alias]
-  co = checkout
-  cp = cherry-pick
-  ci = commit
-  st = status
-  br = branch
+  name = Kristian Maar Kristensen
+  email = kmaar@icloud.com
 
 [color]
     ui = auto
